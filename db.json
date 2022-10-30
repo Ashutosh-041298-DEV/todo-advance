@@ -1,0 +1,82 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "hello",
+      "description": "Description for hello",
+      "task_status": "done",
+      "tags": [
+        "Official"
+      ],
+      "subTasks": [
+        {
+          "subTaskTitle": "Task 1:Sub task 1",
+          "status": true
+        },
+        {
+          "subTaskTitle": "Task 1:Sub task 2",
+          "status": true
+        },
+        {
+          "subTaskTitle": "hello world",
+          "status": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Task 2",
+      "description": "Description for task 2",
+      "task_status": "todo",
+      "tags": [],
+      "subTasks": [
+        {
+          "subTaskTitle": "react",
+          "status": true
+        },
+        {
+          "subTaskTitle": "Ashutosh",
+          "status": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Task 3",
+      "description": "Description for task 3",
+      "task_status": "done",
+      "tags": [
+        "Others"
+      ],
+      "subTasks": [
+        {
+          "subTaskTitle": "Task 3:Sub task 1",
+          "status": false
+        },
+        {
+          "subTaskTitle": "Task 3:Sub task 2",
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Task 4",
+      "description": "Description for task 4",
+      "task_status": "todo",
+      "tags": [
+        "Personal"
+      ],
+      "subTasks": [
+        {
+          "subTaskTitle": "Task 4:Sub task 1",
+          "status": true
+        },
+        {
+          "subTaskTitle": "Task 4:Sub task 2",
+          "status": false
+        }
+      ]
+    }
+  ]
+}
